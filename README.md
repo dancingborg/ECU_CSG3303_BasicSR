@@ -1,9 +1,15 @@
+# Introduction
+
+- This is a forked repo of [BasicSR](https://github.com/xinntao/BasicSR) by @xinntao.
+- This repo was adapted to work on a Nvidia P400 on Ubuntu 18.04 x64 with CUDA 10
+
 # Dependencies
 ```
 sudo apt install cuda nvidia-cuda-toolkit
-pip3 install numpy opencv-python lmdb pyyaml tb-nightly future torch
-torchvision
-'''
+pip3 install numpy opencv-python lmdb pyyaml tb-nightly future
+pip3 install torch torchvision
+sudo dpkg --configure -a && sudo apt -f install
+```
 
 # Citation
 
