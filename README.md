@@ -1,3 +1,10 @@
+# Dependencies
+```
+sudo apt install cuda nvidia-cuda-toolkit
+pip3 install numpy opencv-python lmdb pyyaml tb-nightly future torch
+torchvision
+'''
+
 # Citation
 
     @InProceedings{wang2018esrgan,
