@@ -12,7 +12,7 @@ pip3 install torch torchvision
 sudo dpkg --configure -a && sudo apt -f install
 ```
 
-# Citation
+# Reference
 
     @InProceedings{wang2018esrgan,
         author = {Wang, Xintao and Yu, Ke and Wu, Shixiang and Gu, Jinjin and Liu, Yihao and Dong, Chao and Qiao, Yu and Loy, Chen Change},
