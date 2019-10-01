@@ -14,6 +14,9 @@ from utils import util
 from data import create_dataloader, create_dataset
 from models import create_model
 
+print(torch.version.cuda)
+print(torch.cuda.device_count())
+print(torch.cuda.is_available())
 
 def init_dist(backend='nccl', **kwargs):
     ''' initialization for distributed training'''
@@ -22,7 +25,8 @@ def init_dist(backend='nccl', **kwargs):
         mp.set_start_method('spawn')
     rank = int(os.environ['RANK'])
     num_gpus = torch.cuda.device_count()
-    torch.cuda.set_device(rank % num_gpus)
+    #torch.cuda.set_device(rank % num_gpus)
+    torch.cuda.set_device(0)
     dist.init_process_group(backend=backend, **kwargs)
 
 
