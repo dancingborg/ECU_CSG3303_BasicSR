@@ -1,6 +1,6 @@
 # Introduction
 
-- This is a forked repo of [BasicSR](https://github.com/xinntao/BasicSR) by @xinntao.
+- This is a forked repo of [BasicSR](https://github.com/xinntao/BasicSR) by [xinntao](https://github.com/xinntao).
 - This repo was adapted to work on a Nvidia P400 on Ubuntu 18.04 x64 with CUDA 10
 
 # Dependencies
