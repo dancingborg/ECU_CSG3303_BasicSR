@@ -5,6 +5,7 @@
 
 # Dependencies
 ```
+sudo apt install python3 python3-pip
 sudo apt install cuda nvidia-cuda-toolkit
 pip3 install numpy opencv-python lmdb pyyaml tb-nightly future
 pip3 install torch torchvision
