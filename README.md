@@ -1,4 +1,4 @@
-## Citation
+# Citation
 
     @InProceedings{wang2018esrgan,
         author = {Wang, Xintao and Yu, Ke and Wu, Shixiang and Gu, Jinjin and Liu, Yihao and Dong, Chao and Qiao, Yu and Loy, Chen Change},
