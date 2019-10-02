@@ -10,7 +10,7 @@ sudo apt install cuda nvidia-cuda-toolkit
 pip3 install numpy opencv-python lmdb pyyaml tb-nightly future
 pip3 install torch torchvision
 sudo dpkg --configure -a && sudo apt -f install
-git clone git@github.com:dancingborg/ECU_CSG3303_BasicSR.git
+git clone git@github.com:dancingborg/ECU_CSG3303_BasicSR.git basicSR
 ```
 # Usage
 1. Check `config.yml` for correctness of input directories and settings
