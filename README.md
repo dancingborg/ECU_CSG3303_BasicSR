@@ -12,6 +12,15 @@ pip3 install torch torchvision
 sudo dpkg --configure -a && sudo apt -f install
 git clone git@github.com:dancingborg/ECU_CSG3303_BasicSR.git
 ```
+# Usage
+1. Check `config.yml` for correctness of input directories and settings
+    a. Check `dataroot_GT` for directory of **G**round **T**ruth high resolution images
+    b. Check `dataroot_LQ` for directory of **L**ow **Q**uality downsampled images
+    c. Check `n_workers` and lower it if running out of memory
+    d. Check `batch_size` and lower it if running out of memory
+    e. Check `niter` for **n**umber of desired **iter**ations
+2. Execute `run.sh` from the command line
+
 
 # Reference
 
