@@ -14,6 +14,8 @@ git clone git@github.com:dancingborg/ECU_CSG3303_BasicSR.git basicSR
 ```
 # Usage
 1. Check `config.yml` for correctness of input directories and settings
+    - Check `pretrain_model_G` for pretrained model location, typically
+      `RRDB_PSNR.pth` or `RRDB_ESRGAN.pth`
     - Check `dataroot_GT` for directory of **G**round **T**ruth high resolution images
     - Check `dataroot_LQ` for directory of **L**ow **Q**uality downsampled images
     - Check `n_workers` and lower it if running out of memory
