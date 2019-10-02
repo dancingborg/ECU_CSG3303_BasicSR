@@ -3,13 +3,14 @@
 - This is a forked repo of [BasicSR](https://github.com/xinntao/BasicSR) by [xinntao](https://github.com/xinntao).
 - This repo was adapted to work on a Nvidia P400 on Ubuntu 18.04 x64 with CUDA 10
 
-# Dependencies
+# Installation
 ```
-sudo apt install python3 python3-pip
+sudo apt install python3 python3-pip git
 sudo apt install cuda nvidia-cuda-toolkit
 pip3 install numpy opencv-python lmdb pyyaml tb-nightly future
 pip3 install torch torchvision
 sudo dpkg --configure -a && sudo apt -f install
+git clone git@github.com:dancingborg/ECU_CSG3303_BasicSR.git
 ```
 
 # Reference
