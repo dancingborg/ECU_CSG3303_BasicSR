@@ -20,6 +20,7 @@ git clone git@github.com:dancingborg/ECU_CSG3303_BasicSR.git
     - Check `batch_size` and lower it if running out of memory
     - Check `niter` for **n**umber of desired **iter**ations
 2. Execute `run.sh` from the command line
+3. When complete, check `experiments/TRAINED/models/` for models to import to ESRGAN
 
 
 # Reference
