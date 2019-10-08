@@ -11,8 +11,8 @@ datasets:
   train:
     name: DIV2K
     mode: LQGT
-    dataroot_GT: /volume1/transfer/Optometer/Round_4/train_HR
-    dataroot_LQ: /volume1/transfer/Optometer/Round_4/train_LR
+    dataroot_GT: /volume1/transfer/Optometer/Round_5/train_HR
+    dataroot_LQ: /volume1/transfer/Optometer/Round_5/train_LR
 
     use_shuffle: true
     n_workers: 4 # per GPU
@@ -24,8 +24,8 @@ datasets:
   val:
     name: val_set14_part
     mode: LQGT
-    dataroot_GT: /volume1/transfer/Optometer/Round_4/test_HR
-    dataroot_LQ: /volume1/transfer/Optometer/Round_4/test_LR
+    dataroot_GT: /volume1/transfer/Optometer/Round_5/test_HR
+    dataroot_LQ: /volume1/transfer/Optometer/Round_5/test_LR
 
 #### network structures
 network_G:
@@ -57,7 +57,7 @@ train:
   beta2_D: 0.99
   lr_scheme: MultiStepLR
 
-  niter: 32000
+  niter: 4000
   warmup_iter: -1  # no warm up
   lr_steps: [50000, 100000, 200000, 300000]
   lr_gamma: 0.5
